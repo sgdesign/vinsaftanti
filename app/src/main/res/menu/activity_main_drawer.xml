@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single"
+        android:visible="true">
+        <item
+            android:id="@+id/nav_virusscan"
+            android:title="@string/virus_scan" />
+        <item
+            android:id="@+id/nav_antitheft"
+            android:title="@string/Anti_theft" />
+        <item
+            android:id="@+id/nav_applock"
+            android:title="@string/App_Lock" />
+        <item
+            android:id="@+id/nav_wifisecurity"
+            android:title="@string/wifisecurity"
+            />
+        <item
+            android:id="@+id/nav_callblock"
+            android:title="@string/Call_Block" />
+        <item
+            android:id="@+id/nav_battersaver"
+            android:title="@string/batterysaver" />
+    </group>
+
+            <item
+                android:id="@+id/nav_settings"
+                android:title="@string/settings" />
+            <item
+                android:id="@+id/nav_about"
+                android:title="@string/app_about" />
+            <item
+                android:id="@+id/nav_terms"
+                android:title="Privacy Policy" />
+
+
+</menu>

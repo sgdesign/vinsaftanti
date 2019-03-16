@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference android:title="@string/pref_title_blocking">
+        <intent
+            android:targetClass="com.kyrol.mobile.activities.BlockingSettingsActivity"
+            android:targetPackage="com.kyrol.mobile"/>
+    </Preference>
+
+    <Preference android:title="@string/pref_title_privacy_policy">
+        <intent
+            android:targetClass="com.kyrol.mobile.activities.PrivacyPolicyActivity"
+            android:targetPackage="com.kyrol.mobile"/>
+    </Preference>
+    <Preference android:title="@string/pref_title_toc">
+        <intent
+            android:targetClass="com.kyrol.mobile.activities.TocActivity"
+            android:targetPackage="com.kyrol.mobile"/>
+    </Preference>
+
+    <Preference
+        android:key="pref_submit_debug_logs"
+        android:title="Send Log"/>
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\saeed\\Desktop\\Android Project\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\saeed\\.gradle\\caches\\transforms-1\\files-1.1\\pushe-base-1.6.0.aar\\6c958f93f00854292149b3ad1fde38d4\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,98,149,202,269,336,415,505,653,729,813",
+                        "endColumns": "42,50,52,66,66,78,89,147,75,83,70",
+                        "endOffsets": "93,144,197,264,331,410,500,648,724,808,879"
+                    }
+                }
+            ]
+        }
+    ]
+}

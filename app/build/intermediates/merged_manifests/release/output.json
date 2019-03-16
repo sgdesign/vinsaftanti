@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"2.6","enabled":true,"outputFile":"app-release.apk","fullName":"release","baseName":"release"},"path":"AndroidManifest.xml","properties":{"packageId":"com.saeedsoft.security","split":"","minSdkVersion":"19"}}]

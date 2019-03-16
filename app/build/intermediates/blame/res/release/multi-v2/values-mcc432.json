@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\saeed\\Desktop\\Android Project\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-mcc432\\values-mcc432.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\saeed\\.gradle\\caches\\transforms-1\\files-1.1\\pushe-base-1.6.0.aar\\6c958f93f00854292149b3ad1fde38d4\\res\\values-mcc432\\values-mcc432.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,94,142,194,261,328,402,485,618,693,771",
+                        "endColumns": "38,47,51,66,66,73,82,132,74,77,68",
+                        "endOffsets": "89,137,189,256,323,397,480,613,688,766,835"
+                    }
+                }
+            ]
+        }
+    ]
+}

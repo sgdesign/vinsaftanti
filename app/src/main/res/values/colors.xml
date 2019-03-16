@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="blue">#3F51B5</color>
+    <item name="title_bg" type="color" >#2c5aa9</item>
+    <color name="white">#ffffff</color>
+    <color name="mainStart">#164185</color>
+    <color name="SecondaryColor">#d3d2d1</color>
+    <color name="SecondaryTextColor">#ffffff</color>
+    <color name="colorBackgroundScanInProgress">#3B3F4D</color>
+    <color name="HighRiskColor">#E91E63</color>
+    <color name="MediumRiskColor">#ff933c</color>
+    <color name="ProtectedRiskColor">#71b867</color>
+    <color name="fix_screen_bottom_color">#ffffffff</color>
+    <color name="fix_screen_progressbar_rim_bg_color">#ffffffff</color>
+    <color name="fix_screen_progressbar_rim_fg_color">#ff00acc1</color>
+    <color name="fix_screen_top_color">#e91e63</color>
+    <color name="color_BackgroundAnimationProgress">#4B4F5E</color>
+    <color name="rose_red">#E72993</color>
+    <color name="black55">#55000000</color>
+    <color name="purple">#5542B8</color>
+    <item name="drawer_bg_color_divide" type="color">#243040</item>
+    <color name="black">#000000</color>
+    <color name="colorAccent2">#1f9929</color>
+    <color name="black30">#30000000</color>
+    <color name="orange">#ffff8000</color>
+    <color name="bright_red">#f22723</color>
+    <color name="dark_gray">#ff999999</color>
+    <color name="DividerColor">#4B4F5E</color>
+    <color name="info_icon_top_text">#D3D2D1</color>
+    <color name="info_icon_bottom_text">#726D6C</color>
+    <color name="colorOrangePrimaryDark">#e64a19</color>
+    <color name="border">#a2a2a2</color>
+    <color name="transparent_black">#6e000000</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="blackcc">#cc000000</color>
+    <color name="button_press">#37c5c5c5</color>
+    <color name="black_gray">#2c2c2e</color>
+    <color name="transparent">#00000000</color>
+    <item name="gray" type="color">#323a45</item>
+    <color name="card_pressed">#19000000</color>
+    <color name="card_normal">#e6ffffff</color>
+    <color name="white55">#55eeeeee</color>
+    <color name="black99">#99000000</color>
+    <color name="mainEnd">#E91E63</color>
+</resources>

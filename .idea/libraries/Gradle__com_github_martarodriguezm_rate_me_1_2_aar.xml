@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.martarodriguezm:rate-me:1.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rate-me-1.2.aar/958c46251d25ca3b67b799fae50c30d8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rate-me-1.2.aar/958c46251d25ca3b67b799fae50c30d8/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.martarodriguezm/rate-me/1.2/bd9392ee5275fbb56aa692b0ab3d7eb5401baba2/rate-me-1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "312301886071",
+    "firebase_url": "https://abc-mobile-security.firebaseio.com",
+    "project_id": "abc-mobile-security",
+    "storage_bucket": "abc-mobile-security.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312301886071:android:06798f413a742ec0",
+        "android_client_info": {
+          "package_name": "com.saeedsoft.security"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312301886071-a8lbkvt4vrpo1d1q67ru48pbqipauo8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADGyIlPdOXIGWdvpNYnl17fZySEum4SZM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

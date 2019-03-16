@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card-view="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2e2e2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/test1"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="10dp">
+
+
+            <RelativeLayout
+                android:id="@+id/card1"
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:id="@+id/image1"
+
+                    android:layout_width="80dp"
+                    android:layout_height="61dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:visibility="gone"
+                    card-view:srcCompat="@drawable/card_icon_virus" />
+
+                <TextView
+                    android:id="@+id/name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_toEndOf="@+id/image1"
+                    android:layout_toRightOf="@+id/image1"
+                    android:text="@string/total_file"
+                    android:textColor="@color/black"
+                    android:textSize="35px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/b1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="68dp"
+                    android:layout_marginRight="68dp"
+                    android:text="0"
+                    android:textColor="@color/colorAccent2"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/test2"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="10dp">
+
+
+            <RelativeLayout
+                android:id="@+id/card2"
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:id="@+id/image2"
+
+                    android:layout_width="80dp"
+                    android:layout_height="61dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:visibility="gone"
+                    card-view:srcCompat="@drawable/card_icon_anti" />
+
+                <TextView
+                    android:id="@+id/name2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_toEndOf="@+id/image2"
+                    android:layout_toRightOf="@+id/image2"
+                    android:text="@string/Scanned"
+                    android:textColor="@color/black"
+                    android:textSize="35px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/b2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="69dp"
+                    android:layout_marginRight="69dp"
+                    android:text="0"
+                    android:textColor="@color/colorAccent2"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/test3"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="10dp">
+
+
+            <RelativeLayout
+                android:id="@+id/card3"
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:id="@+id/image3"
+
+                    android:layout_width="80dp"
+                    android:layout_height="61dp"
+                    android:layout_alignBottom="@+id/itemCardView2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:visibility="gone"
+                    card-view:srcCompat="@drawable/card_icon_locker" />
+
+                <TextView
+                    android:id="@+id/name3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_toEndOf="@+id/image3"
+                    android:layout_toRightOf="@+id/image3"
+                    android:text="@string/Scan_remain"
+                    android:textColor="@color/black"
+                    android:textSize="35px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/b3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/name3"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="69dp"
+                    android:layout_marginRight="69dp"
+                    android:text="0"
+                    android:textColor="@color/colorAccent2"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/test4"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:accessibilityLiveRegion="none"
+            android:visibility="visible"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="10dp">
+
+
+            <RelativeLayout
+                android:id="@+id/card4"
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:id="@+id/image4"
+
+                    android:layout_width="80dp"
+                    android:layout_height="61dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:visibility="gone"
+                    card-view:srcCompat="@drawable/card_icon_backupp" />
+
+                <TextView
+                    android:id="@+id/name4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_toEndOf="@+id/image4"
+                    android:layout_toRightOf="@+id/image4"
+                    android:text="@string/threats_detect"
+                    android:textColor="@color/black"
+                    android:textSize="35px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/f4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/name4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="69dp"
+                    android:layout_marginRight="69dp"
+                    android:text="0"
+                    android:textColor="@color/colorAccent2"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

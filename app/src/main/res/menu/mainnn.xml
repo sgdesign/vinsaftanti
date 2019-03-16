@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/mainMnBlockingSettings"
+        android:icon="@drawable/ic_blocking_settings"
+        android:menuCategory="system"
+        android:title="@string/main_menu_item_blocking_settings"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction"/>
+    <item
+        android:id="@+id/mainMnAllSettings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:menuCategory="system"
+        android:title="@string/main_menu_item_settings"
+        app:showAsAction="never"
+        android:visible="false" />
+</menu>
+
+
+

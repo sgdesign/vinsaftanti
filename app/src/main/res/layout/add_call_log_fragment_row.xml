@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:paddingBottom="@dimen/list_vertical_padding"
+              android:paddingTop="@dimen/list_vertical_padding"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/callLogLabelName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"
+            tools:text="9868606202" />
+
+        <LinearLayout
+            android:id="@+id/callLogDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/inner_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/callLogLabelType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:fontFamily="sans-serif-light"
+                android:maxLines="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                tools:ignore="UnusedAttribute"
+                tools:text="Mobile"/>
+
+            <TextView
+                android:id="@+id/callLogLabelNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-light"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                tools:ignore="RtlSymmetry,UnusedAttribute"
+                tools:text="+1 (555) 555-5555"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/callLogLabelDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:ellipsize="none"
+        android:fontFamily="sans-serif-light"
+        android:maxLines="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="?android:attr/textColorPrimary"
+        tools:ignore="UnusedAttribute"
+        tools:text="May 18"/>
+
+    <CheckBox
+        android:id="@+id/callLogCbSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:clickable="true"
+        android:focusable="false" />
+
+</LinearLayout>

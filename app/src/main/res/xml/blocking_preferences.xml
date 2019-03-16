@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory
+        android:persistent="false"
+        android:title="@string/pref_cat_blocking_status">
+        <CheckBoxPreference
+            android:key="blocking_enabled"
+            android:summary="@string/pref_blocking_enable_summary"
+            android:title="@string/pref_blocking_enable"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:dependency="blocking_enabled"
+        android:persistent="false"
+        android:title="@string/pref_cat_blocking_methods">
+
+        <CheckBoxPreference
+            android:key="enable_black_list_key"
+            android:summary="@string/pref_blacklist_summary"
+            android:title="@string/pref_blacklist"/>
+
+        <CheckBoxPreference
+            android:key="allow_only_contacts_key"
+            android:summary="@string/pref_contacts_only_summary"
+            android:title="@string/pref_contacts_only"/>
+
+        <CheckBoxPreference
+            android:key="block_private_numbers_key"
+            android:summary="@string/pref_private_number_summary"
+            android:title="@string/pref_private_number"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:dependency="blocking_enabled"
+        android:persistent="false"
+        android:title="@string/pref_title_log">
+        <CheckBoxPreference
+            android:key="enable_log_key"
+            android:summary="@string/pref_log_summary"
+            android:title="@string/pref_log"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:dependency="blocking_enabled"
+        android:persistent="false"
+        android:title="@string/pref_title_notification">
+        <CheckBoxPreference
+            android:key="notification_blocked_call"
+            android:summary="@string/pref_not_status_bar_summary"
+            android:title="@string/pref_not_status_bar"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

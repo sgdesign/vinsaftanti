@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ajalt.reprint:reprint_spass:3.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/reprint_spass-3.1.0.aar/153812e321938654b51d6957dc4929e8/jars/libs/sdk-v1.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/reprint_spass-3.1.0.aar/153812e321938654b51d6957dc4929e8/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/reprint_spass-3.1.0.aar/153812e321938654b51d6957dc4929e8/jars/libs/pass-v1.1.4.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/reprint_spass-3.1.0.aar/153812e321938654b51d6957dc4929e8/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

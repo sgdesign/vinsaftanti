@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ajalt.reprint:reactive:2.8.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/reactive-2.8.0.aar/9ee63cc6887e3f726bf5d34a0f37fcba/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/reactive-2.8.0.aar/9ee63cc6887e3f726bf5d34a0f37fcba/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ajalt.reprint/reactive/2.8.0/e7328d8f8afb5b24eb17bfd8a6a6309233401d9e/reactive-2.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

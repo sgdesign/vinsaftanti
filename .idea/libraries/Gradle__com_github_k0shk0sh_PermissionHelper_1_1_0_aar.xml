@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.k0shk0sh:PermissionHelper:1.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/PermissionHelper-1.1.0.aar/d1b5f1495d5097f8de1de66ffa3937c0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/PermissionHelper-1.1.0.aar/d1b5f1495d5097f8de1de66ffa3937c0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.k0shk0sh/PermissionHelper/1.1.0/b416032d1147ef9c2d726659da3b6d12aa2b1fe8/PermissionHelper-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

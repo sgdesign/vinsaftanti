@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8ffffff"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.saeedsoft.security.MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:layout_weight="1.4">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:id="@+id/background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/HighRiskColor"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_weight="0.1" />
+
+                <ImageView
+                    android:id="@+id/iconmain"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/shield_high_risk_icon" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1" />
+
+                <TextView
+                    android:id="@+id/textmain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/unprotected_home"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/menaces_text_font_size"
+                    android:textStyle="normal"
+                    android:typeface="serif" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.05" />
+
+                <Button
+                    android:id="@+id/upgrade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/button_height_resolve_problems"
+                    android:layout_gravity="center"
+                    android:background="@drawable/resolve_button_selector"
+                    android:focusable="false"
+
+                    android:text="@string/upgrade_button"
+                    android:textAlignment="center"
+                    android:textColor="@color/SecondaryTextColor"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dip"
+            android:layout_centerInParent="true">
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <include layout="@layout/include_main_card" />
+    </RelativeLayout>
+
+</LinearLayout>

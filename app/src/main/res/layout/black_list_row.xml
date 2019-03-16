@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/list_vertical_padding"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/list_vertical_padding">
+
+    <ImageView
+        android:id="@+id/blackListIvDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:layout_margin="0dp"
+        android:background="@drawable/account"
+        android:paddingEnd="24dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="24dp"
+        android:paddingStart="8dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/blackListLabelName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"
+            tools:text="9868606202" />
+
+        <TextView
+            android:id="@+id/blackListLabelNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/inner_margin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            tools:ignore="UnusedAttribute"
+            tools:text="+1 123 4567 9876 5345345" />
+    </LinearLayout>
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/blackListCbEnabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:clickable="true"
+        android:focusable="false"
+        android:text=""
+        android:theme="@style/Switch_style" />
+
+</LinearLayout>

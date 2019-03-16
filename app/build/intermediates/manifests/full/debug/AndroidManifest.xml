@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saeedanti.security"
+    android:versionCode="6"
+    android:versionName="2.6" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="com.sec.android.app.clockpackage.permission.READ_ALARM" />
+    <uses-permission android:name="com.sec.android.app.clockpackage.permission.WRITE_ALARM" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <permission
+        android:name="com.saeedanti.security.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.saeedanti.security.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Optional permissions -->
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.BIND_JOB_SERVICE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+
+    <application
+        android:name="com.saeedanti.security.stuff.AppContext"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyAppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.saeedanti.security.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.SplishActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity android:name="com.saeedanti.security.PermissionActivity" >
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.AntiVirus.EulaActivity"
+            android:configChanges="orientation"
+            android:label=""
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.AntiVirus.FullscanActivity"
+            android:configChanges="orientation"
+            android:label="@string/virus_scan"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTranslucentAppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.AntiVirus.SdcardScanActivity"
+            android:configChanges="orientation"
+            android:label="@string/virus_scan"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTranslucentAppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.SettingsActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTranslucentAppTheme" >
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.AntiVirus.AntivirusActivity"
+            android:configChanges="orientation"
+            android:label="@string/virus_scan"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTranslucentAppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.AntiVirus.VirusScan"
+            android:label="@string/virus_scan"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTranslucentAppTheme" />
+        <activity
+            android:name="com.saeedanti.security.AntiVirus.VirusScanSpeed"
+            android:label="@string/virus_scan"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTranslucentAppTheme" />
+        <activity
+            android:name="com.saeedanti.security.AntiVirus.ScanCompleted"
+            android:label="@string/virus_scan"
+            android:theme="@style/MyTranslucentAppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.AntiVirus.DetailUpdateReport"
+            android:label="@string/virus_scan"
+            android:theme="@style/MyTranslucentAppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.AntiVirus.DetailScanReport"
+            android:label="@string/virus_scan"
+            android:theme="@style/MyTranslucentAppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.AntiVirus.ReportActivity"
+            android:label="@string/virus_scan"
+            android:theme="@style/MyTranslucentAppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.PhoneSafeActivity"
+            android:label="@string/Anti_theft"
+            android:launchMode="singleTask"
+            android:theme="@style/MyTranslucentAppTheme" />
+        <activity
+            android:name="com.saeedanti.security.PhoneSafeSetting1Activity"
+            android:label="@string/Anti_theft"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="com.saeedanti.security.PhoneSafeSetting1Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.ContactsActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.AntiTheft.SetUp1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.saeedanti.security.AntiTheft.SetUp2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.saeedanti.security.AntiTheft.SetUp4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.saeedanti.security.AntiTheft.LostFind"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name="com.saeedanti.security.service.PhoneSafeService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name="com.saeedanti.security.receiver.SimChangeReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.saeedanti.security.service.GpsTraceService"
+            android:enabled="true"
+            android:exported="true" />
+        <!-- Declaring broadcast receiver for BOOT_COMPLETED event. -->
+        <receiver
+            android:name="com.saeedanti.security.AntiVirus.BootCompletedReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.saeedanti.security.AntiVirus.MonitorShieldService"
+            android:enabled="true" />
+        <service
+            android:name="com.saeedanti.security.service.CallBlockingService"
+            android:description="@string/blocking_service_description"
+            android:exported="false" >
+        </service>
+
+        <receiver android:name="com.saeedanti.security.broadcasts.WakeUpReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.saeedanti.security.broadcasts.CallReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.saeedanti.security.db.BlackListProvider"
+            android:authorities="com.saeedanti.security.blackList"
+            android:exported="false" />
+        <provider
+            android:name="com.saeedanti.security.db.LogProvider"
+            android:authorities="com.saeedanti.security.log"
+            android:exported="false" />
+        <provider
+            android:name="com.saeedanti.security.db.QuickBlackListProvider"
+            android:authorities="com.saeedanti.security.quickBlackList"
+            android:exported="false" />
+
+        <activity
+            android:name="com.saeedanti.security.CallBlocker.MainActivity"
+            android:label="@string/callb_Home"
+            android:theme="@style/MyTranslucentAppTheme" >
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.CallBlocker.AddActivity"
+            android:exported="false"
+            android:label="@string/callb_Home"
+            android:theme="@style/MyTranslucentAppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.saeedanti.security.CallBlocker.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.CallBlocker.AllSettingsActivity"
+            android:exported="false"
+            android:label="@string/callb_Home"
+            android:theme="@style/MyTranslucentAppTheme" >
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.CallBlocker.BlockingSettingsActivity"
+            android:exported="false"
+            android:label="@string/callb_Home"
+            android:theme="@style/MyTranslucentAppTheme" >
+        </activity>
+        <activity
+            android:name="com.nononsenseapps.filepicker.FilePickerActivity"
+            android:exported="false"
+            android:label="@string/callb_Home"
+            android:theme="@style/FilePickerTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.CallBlocker.InitialPermissionsActivity"
+            android:exported="false"
+            android:label="@string/callb_Home"
+            android:theme="@style/MyTranslucentAppTheme" >
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.WifiSecurity.PreferencesActivity"
+            android:label="@string/wifisec_Home"
+            android:theme="@style/MyTranslucentAppTheme" >
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.WifiSecurity.SSIDManagerActivity"
+            android:label="@string/wifisec_Home"
+            android:theme="@style/MyTranslucentAppTheme" >
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.WifiSecurity.MACManagerActivity"
+            android:label="@string/wifisec_Home"
+            android:theme="@style/MyTranslucentAppTheme" >
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.WifiSecurity.LocationNoticeActivity"
+            android:label="@string/wifisec_Home"
+            android:theme="@style/MyTranslucentAppTheme" >
+        </activity>
+        <!-- Receive all scan results in ScanResultsChecker class -->
+
+        <receiver
+            android:name="com.saeedanti.security.WifiSecurity.ScanResultsChecker"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.net.wifi.SCAN_RESULTS" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.saeedanti.security.WifiSecurity.LocationAccess"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.location.PROVIDERS_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.saeedanti.security.WifiSecurity.PermissionChangeReceiver"
+            android:enabled="true" />
+        <receiver
+            android:name="com.saeedanti.security.WifiSecurity.WakelockHandler"
+            android:enabled="true" />
+
+        <activity
+            android:name="com.saeedanti.security.WifiSecurity.AskPermissionActivity"
+            android:excludeFromRecents="true"
+            android:parentActivityName="com.saeedanti.security.WifiSecurity.PreferencesActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.saeedanti.security.WifiSecurity.PreferencesActivity" />
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.applocker.EnterActivity"
+            android:label="@string/apps_lock"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.applocker.UnlockActivity"
+            android:label="@string/apps_lock"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.applocker.MainActivity"
+            android:label="@string/apps_lock"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTranslucentAppTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.applocker.Splash"
+            android:label="@string/apps_lock"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.applocker.SetPatternLockActivity"
+            android:label="@string/apps_lock"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.applocker.SetLockTypeActivity"
+            android:label="@string/apps_lock"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.applocker.EnterNormalPIN"
+            android:excludeFromRecents="true"
+            android:label="@string/apps_lock"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.applocker.SetNormalPIN"
+            android:label="@string/apps_lock"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.applocker.EnterPatternLock"
+            android:excludeFromRecents="true"
+            android:label="@string/apps_lock"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.applocker.EnterFingerprintActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/apps_lock"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.applocker.SettingsActivity"
+            android:label="@string/apps_lock"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.applocker.LogsActivity"
+            android:label="@string/apps_lock"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.applocker.RequestPermission"
+            android:label="@string/apps_lock"
+            android:theme="@style/AppTheme2" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saeedanti.security.ProActivity"
+            android:label="@string/upgrade_button"
+            android:theme="@style/MyTranslucentAppTheme" />
+        <activity
+            android:name="com.saeedanti.security.ProActivitySuccess"
+            android:label="@string/upgrade_button"
+            android:theme="@style/MyTranslucentAppTheme" />
+        <activity android:name="com.saeedanti.security.NotificationActivity" />
+        <activity
+            android:name="com.saeedanti.security.Battery.BatterySaver"
+            android:label="@string/batterysaver"
+            android:theme="@style/MyTranslucentAppTheme" />
+        <activity
+            android:name="com.saeedanti.security.AntiVirus.VirusFoundActivity"
+            android:label="@string/virus_scan"
+            android:theme="@style/MyTranslucentAppTheme" />
+        <activity
+            android:name="com.saeedanti.security.AntiVirus.VirusFoundActivity2"
+            android:label="@string/virus_scan"
+            android:theme="@style/MyTranslucentAppTheme" />
+        <activity
+            android:name="com.saeedanti.security.AboutActivity"
+            android:label="@string/app_about"
+            android:theme="@style/MyTranslucentAppTheme" />
+        <activity
+            android:name="com.saeedanti.security.PrivacyPolicyActivity"
+            android:label="@string/privacy_policy"
+            android:theme="@style/MyTranslucentAppTheme" />
+        <activity
+            android:name="com.saeedanti.security.Activity_TOSAccept"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.saeedanti.security.applocker.ScreenReciever" >
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_OFF" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.saeedanti.security.applocker.BootReciever" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.saeedanti.security.applocker.LockService"
+            android:enabled="true" />
+
+        <receiver
+            android:name="com.saeedanti.security.receiver.DeviceAdminSampleReceiver"
+            android:description="@string/sample_device_admin_description"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin_sample" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.saeedanti.security.service.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.saeedanti.security.service.MyFirebaseInstanceIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="co.ronash.pushe.receiver.UpdateReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+
+                <data
+                    android:path="com.saeedanti.security"
+                    android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.saeedanti.security" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="co.ronash.pushe.token"
+            android:value="PUSHE_906665732484" />
+        <meta-data
+            android:name="co.ronash.pushe.cr"
+            android:value="aHR0cDovLzA4YThiM2I0NzNmODRiOTJiY2ZjOTVkMzY0NjdlZmE4OjBjYzA5NjE1ODFlYTRlYWQ5ZWYxNmNiZDJmODNjYzhiQGNhLnB1c2hlLmlyLzIxMjY=" />
+
+        <service
+            android:name="co.ronash.pushe.service.GcmService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+            <intent-filter android:priority="999" >
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="co.ronash.pushe.receiver.FallbackGcmNetworkManagerReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="co.ronash.pushe.CHECK_TASKS" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="co.ronash.pushe.receiver.BootAndScreenReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="co.ronash.pushe.service.ScreenStateService" >
+            <intent-filter>
+                <action android:name="co.ronash.pushe.service.ScreenStateService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="co.ronash.pushe.receiver.ConnectivityReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="co.ronash.pushe.receiver.AddReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.evernote.android.job.ADD_JOB_CREATOR" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="co.ronash.pushe.receiver.AppChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_INSTALL" />
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_FULLY_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="co.ronash.pushe.service.FallbackGcmTaskRunner"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="co.ronash.pushe.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="co.ronash.pushe.task.scheduler.gcm.GcmTaskRunner"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="co.ronash.pushe.service.IntentTaskRunner"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="co.ronash.pushe.service.InstanceIDService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="co.ronash.pushe.activities.PopupDialogActivity"
+            android:theme="@style/PusheTransparent" >
+        </activity>
+        <activity android:name="co.ronash.pushe.activities.WebviewActivity" >
+        </activity>
+        <activity
+            android:name="co.ronash.pushe.activities.RequestAccessDialogActivity"
+            android:theme="@style/PusheTransparent" >
+        </activity>
+
+        <service android:name="co.ronash.pushe.service.PusheActivityService" />
+        <service
+            android:name="com.evernote.android.job.gcm.PlatformGcmService"
+            android:enabled="false"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service> <!-- Below service is required for standalone aar file -->
+        <!-- <service -->
+        <!-- android:name="com.evernote.android.job.v21.PlatformJobService" -->
+        <!-- android:exported="false" -->
+        <!-- android:permission="android.permission.BIND_JOB_SERVICE"/> -->
+        <provider
+            android:name="co.ronash.pushe.provider.PusheProvider"
+            android:authorities="com.saeedanti.security.co.ronash.pushe.pusheprovider"
+            android:enabled="true"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <service
+            android:name="co.ronash.pushe.task.tasks.NetworkConnect"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="co.ronash.pushe.receiver.PusheGcmReceiver"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.saeedanti.security" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.saeedanti.security.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name="com.evernote.android.job.v21.PlatformJobService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.evernote.android.job.v14.PlatformAlarmService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.evernote.android.job.v14.PlatformAlarmServiceExact"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.evernote.android.job.v14.PlatformAlarmReceiver"
+            android:exported="false" >
+            <intent-filter>
+
+                <!-- Keep the filter for legacy intents -->
+                <action android:name="com.evernote.android.job.v14.RUN_JOB" />
+                <action android:name="net.vrallev.android.job.v14.RUN_JOB" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.evernote.android.job.JobBootReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.evernote.android.job.JobRescheduleService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>
