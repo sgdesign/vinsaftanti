@@ -5,7 +5,7 @@
     android:id="@+id/activity_contacts"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.saeedsoft.security.ContactsActivity">
+    tools:context="com.vinsasoft.security.ContactsActivity">
 
     <ListView
         android:id="@+id/lv_contacts"

@@ -9,7 +9,7 @@
         android:key="pref_change_safe_phone"
         android:summary="@string/current_safe_phone_number"
         android:title="@string/change_safe_phone_number">
-        <intent android:action="com.saeedsoft.security.PhoneSafeSetting1Activity" />
+        <intent android:action="com.vinsasoft.security.PhoneSafeSetting1Activity" />
     </Preference>
     <CheckBoxPreference
         android:defaultValue="true"

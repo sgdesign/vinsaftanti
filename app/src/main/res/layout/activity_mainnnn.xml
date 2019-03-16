@@ -9,7 +9,7 @@
     android:background="#e2e2e2"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    tools:context="com.saeedsoft.security.applocker.MainActivity">
+    tools:context="com.vinsasoft.security.applocker.MainActivity">
 
     <RelativeLayout
         android:id="@+id/hello"

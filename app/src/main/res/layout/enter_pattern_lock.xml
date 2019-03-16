@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/mainEnd"
     android:orientation="vertical"
-    tools:context="com.saeedsoft.security.applocker.EnterPatternLock">
+    tools:context="com.vinsasoft.security.applocker.EnterPatternLock">
 
     <com.amnix.materiallockview.MaterialLockView xmlns:lockview="http://schemas.android.com/apk/res-auto"
         android:id="@+id/enterPatternLockView"

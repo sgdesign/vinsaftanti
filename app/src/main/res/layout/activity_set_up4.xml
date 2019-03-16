@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.saeedsoft.security.AntiTheft.SetUp4">
+    tools:context="com.vinsasoft.security.AntiTheft.SetUp4">
 
     <LinearLayout
         android:layout_width="match_parent"

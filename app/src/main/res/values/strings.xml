@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">آنتی ویروس پیشرفته وینسافت</string>
+    <string name="app_name">آنتی ویروس پیشرفته vina</string>
     <string name="interstitial_ad_unit" translatable="false">ca-app-pub-394025tgltkglk6099566942544/1033173712</string>
     <string name="banner_ad_unit" translatable="false">cath-aphtp-puthb-3946025609tgtgfg994256644/63060978111</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -30,7 +30,7 @@
     <string name="message_phone">دسترسی اس ام اس </string>
 	<!-- Permission Text ended-->
 	<!-- Splash Windows Text started-->
-	<string name="all_rights_reserved">تمامی حقوق برای آنتی ویروس هوشمند وینسافت محفوظ می باشد.</string>
+	<string name="all_rights_reserved">تمامی حقوق برای آنتی ویروس هوشمند vina محفوظ می باشد.</string>
 	
 	<!-- Splash Windows Text ended-->
 

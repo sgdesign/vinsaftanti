@@ -378,7 +378,7 @@ MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] C:\Users\saee
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:60:13-61
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:58:13-65
-activity#com.saeedsoft.security.MainActivity
+activity#com.vinsasoft.security.MainActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:62:9-68:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:64:13-45
@@ -386,17 +386,17 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:65:13-56
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:63:13-63
-activity#com.saeedsoft.security.SplishActivity
+activity#com.vinsasoft.security.SplishActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:69:9-73:20
 	android:theme
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:70:13-44
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:69:19-71
-activity#com.saeedsoft.security.PermissionActivity
+activity#com.vinsasoft.security.PermissionActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:74:9-76:20
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:74:19-75
-activity#com.saeedsoft.security.AntiVirus.EulaActivity
+activity#com.vinsasoft.security.AntiVirus.EulaActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:78:9-87:20
 	android:screenOrientation
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:82:13-49
@@ -412,7 +412,7 @@ action#android.intent.action.MAIN
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:84:17-69
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:84:25-66
-activity#com.saeedsoft.security.AntiVirus.FullscanActivity
+activity#com.vinsasoft.security.AntiVirus.FullscanActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:88:9-97:40
 	android:screenOrientation
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:92:13-49
@@ -434,7 +434,7 @@ category#android.intent.category.DEFAULT
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:96:17-76
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:96:27-73
-activity#com.saeedsoft.security.AntiVirus.SdcardScanActivity
+activity#com.vinsasoft.security.AntiVirus.SdcardScanActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:98:9-107:40
 	android:screenOrientation
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:102:13-49
@@ -446,7 +446,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:103:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:99:13-79
-activity#com.saeedsoft.security.SettingsActivity
+activity#com.vinsasoft.security.SettingsActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:108:9-113:70
 	android:screenOrientation
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:112:13-49
@@ -458,7 +458,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:113:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:109:13-67
-activity#com.saeedsoft.security.AntiVirus.AntivirusActivity
+activity#com.vinsasoft.security.AntiVirus.AntivirusActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:114:9-125:20
 	android:screenOrientation
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:118:13-49
@@ -470,7 +470,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:119:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:115:13-78
-activity#com.saeedsoft.security.AntiVirus.VirusScan
+activity#com.vinsasoft.security.AntiVirus.VirusScan
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:127:9-133:15
 	android:screenOrientation
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:129:13-49
@@ -480,7 +480,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:131:9-53
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:128:13-70
-activity#com.saeedsoft.security.AntiVirus.VirusScanSpeed
+activity#com.vinsasoft.security.AntiVirus.VirusScanSpeed
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:134:9-138:15
 	android:screenOrientation
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:135:13-49
@@ -490,7 +490,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:137:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:134:19-81
-activity#com.saeedsoft.security.AntiVirus.ScanCompleted
+activity#com.vinsasoft.security.AntiVirus.ScanCompleted
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:140:9-148:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:141:13-47
@@ -498,7 +498,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:143:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:142:13-74
-activity#com.saeedsoft.security.AntiVirus.DetailUpdateReport
+activity#com.vinsasoft.security.AntiVirus.DetailUpdateReport
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:150:9-158:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:151:13-47
@@ -506,7 +506,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:153:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:152:13-79
-activity#com.saeedsoft.security.AntiVirus.DetailScanReport
+activity#com.vinsasoft.security.AntiVirus.DetailScanReport
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:159:9-167:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:160:13-47
@@ -514,7 +514,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:162:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:161:13-77
-activity#com.saeedsoft.security.AntiVirus.ReportActivity
+activity#com.vinsasoft.security.AntiVirus.ReportActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:168:9-176:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:169:13-47
@@ -522,7 +522,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:171:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:170:13-75
-activity#com.saeedsoft.security.PhoneSafeActivity
+activity#com.vinsasoft.security.PhoneSafeActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:177:9-182:15
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:181:13-47
@@ -532,7 +532,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:180:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:178:13-68
-activity#com.saeedsoft.security.PhoneSafeSetting1Activity
+activity#com.vinsasoft.security.PhoneSafeSetting1Activity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:183:9-192:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:186:13-47
@@ -540,43 +540,43 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:185:13-44
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:184:13-76
-intent-filter#action:name:com.saeedsoft.security.PhoneSafeSetting1Activity+category:name:android.intent.category.DEFAULT
+intent-filter#action:name:com.vinsasoft.security.PhoneSafeSetting1Activity+category:name:android.intent.category.DEFAULT
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:187:13-191:29
-action#com.saeedsoft.security.PhoneSafeSetting1Activity
+action#com.vinsasoft.security.PhoneSafeSetting1Activity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:188:17-91
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:188:25-88
-activity#com.saeedsoft.security.ContactsActivity
+activity#com.vinsasoft.security.ContactsActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:193:9-196:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:194:13-29
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:193:19-73
-activity#com.saeedsoft.security.AntiTheft.SetUp1
+activity#com.vinsasoft.security.AntiTheft.SetUp1
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:197:9-198:58
 	android:theme
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:198:13-56
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:197:19-73
-activity#com.saeedsoft.security.AntiTheft.SetUp2
+activity#com.vinsasoft.security.AntiTheft.SetUp2
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:199:9-200:58
 	android:theme
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:200:13-56
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:199:19-73
-activity#com.saeedsoft.security.AntiTheft.SetUp4
+activity#com.vinsasoft.security.AntiTheft.SetUp4
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:202:9-203:58
 	android:theme
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:203:13-56
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:202:19-73
-activity#com.saeedsoft.security.AntiTheft.LostFind
+activity#com.vinsasoft.security.AntiTheft.LostFind
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:204:9-205:58
 	android:theme
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:205:13-56
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:204:19-75
-service#com.saeedsoft.security.service.PhoneSafeService
+service#com.vinsasoft.security.service.PhoneSafeService
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:206:9-209:39
 	android:enabled
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:208:13-35
@@ -584,7 +584,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:209:13-36
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:207:13-75
-receiver#com.saeedsoft.security.receiver.SimChangeReceiver
+receiver#com.vinsasoft.security.receiver.SimChangeReceiver
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:211:9-218:20
 	android:enabled
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:213:13-35
@@ -598,7 +598,7 @@ action#android.intent.action.BOOT_COMPLETED
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:216:17-79
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:216:25-76
-service#com.saeedsoft.security.service.GpsTraceService
+service#com.vinsasoft.security.service.GpsTraceService
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:220:9-223:39
 	android:enabled
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:222:13-35
@@ -606,7 +606,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:223:13-36
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:221:13-74
-receiver#com.saeedsoft.security.AntiVirus.BootCompletedReceiver
+receiver#com.vinsasoft.security.AntiVirus.BootCompletedReceiver
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:225:9-229:20
 	android:enabled
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:225:89-111
@@ -614,13 +614,13 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:225:112-136
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:225:19-88
-service#com.saeedsoft.security.AntiVirus.MonitorShieldService
+service#com.vinsasoft.security.AntiVirus.MonitorShieldService
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:231:9-112
 	android:enabled
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:231:18-40
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:231:41-109
-service#com.saeedsoft.security.service.CallBlockingService
+service#com.vinsasoft.security.service.CallBlockingService
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:235:9-239:19
 	android:exported
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:238:13-37
@@ -628,11 +628,11 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:237:13-71
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:236:13-78
-receiver#com.saeedsoft.security.broadcasts.WakeUpReceiver
+receiver#com.vinsasoft.security.broadcasts.WakeUpReceiver
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:241:9-245:20
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:241:19-82
-receiver#com.saeedsoft.security.broadcasts.CallReceiver
+receiver#com.vinsasoft.security.broadcasts.CallReceiver
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:246:9-251:20
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:247:13-74
@@ -642,7 +642,7 @@ action#android.intent.action.PHONE_STATE
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:249:17-75
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:249:25-73
-provider#com.saeedsoft.security.db.BlackListProvider
+provider#com.vinsasoft.security.db.BlackListProvider
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:253:9-256:39
 	android:authorities
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:255:13-67
@@ -650,7 +650,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:256:13-37
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:254:13-71
-provider#com.saeedsoft.security.db.LogProvider
+provider#com.vinsasoft.security.db.LogProvider
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:257:9-260:39
 	android:authorities
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:259:13-61
@@ -658,7 +658,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:260:13-37
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:258:13-65
-provider#com.saeedsoft.security.db.QuickBlackListProvider
+provider#com.vinsasoft.security.db.QuickBlackListProvider
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:261:9-264:39
 	android:authorities
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:263:13-72
@@ -666,7 +666,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:264:13-37
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:262:13-76
-activity#com.saeedsoft.security.CallBlocker.MainActivity
+activity#com.vinsasoft.security.CallBlocker.MainActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:266:9-271:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:268:13-47
@@ -674,7 +674,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:269:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:267:13-75
-activity#com.saeedsoft.security.CallBlocker.AddActivity
+activity#com.vinsasoft.security.CallBlocker.AddActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:272:9-280:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:275:13-47
@@ -690,7 +690,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:279:17-80
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:278:17-63
-activity#com.saeedsoft.security.CallBlocker.AllSettingsActivity
+activity#com.vinsasoft.security.CallBlocker.AllSettingsActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:282:9-288:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:283:13-47
@@ -700,7 +700,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:287:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:284:13-82
-activity#com.saeedsoft.security.CallBlocker.BlockingSettingsActivity
+activity#com.vinsasoft.security.CallBlocker.BlockingSettingsActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:289:9-294:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:292:13-47
@@ -726,7 +726,7 @@ action#android.intent.action.GET_CONTENT
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:301:17-75
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:301:25-73
-activity#com.saeedsoft.security.CallBlocker.InitialPermissionsActivity
+activity#com.vinsasoft.security.CallBlocker.InitialPermissionsActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:305:9-310:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:308:13-47
@@ -736,7 +736,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:309:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:306:13-89
-activity#com.saeedsoft.security.WifiSecurity.PreferencesActivity
+activity#com.vinsasoft.security.WifiSecurity.PreferencesActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:312:9-317:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:314:13-49
@@ -744,7 +744,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:315:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:313:13-83
-activity#com.saeedsoft.security.WifiSecurity.SSIDManagerActivity
+activity#com.vinsasoft.security.WifiSecurity.SSIDManagerActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:318:9-322:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:320:13-49
@@ -752,7 +752,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:321:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:319:13-83
-activity#com.saeedsoft.security.WifiSecurity.MACManagerActivity
+activity#com.vinsasoft.security.WifiSecurity.MACManagerActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:323:9-327:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:325:13-49
@@ -760,7 +760,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:326:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:324:13-82
-activity#com.saeedsoft.security.WifiSecurity.LocationNoticeActivity
+activity#com.vinsasoft.security.WifiSecurity.LocationNoticeActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:328:9-332:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:330:13-49
@@ -768,7 +768,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:331:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:329:13-86
-receiver#com.saeedsoft.security.WifiSecurity.ScanResultsChecker
+receiver#com.vinsasoft.security.WifiSecurity.ScanResultsChecker
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:336:9-344:20
 	android:enabled
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:338:13-35
@@ -782,7 +782,7 @@ action#android.net.wifi.SCAN_RESULTS
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:341:17-71
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:341:25-69
-receiver#com.saeedsoft.security.WifiSecurity.LocationAccess
+receiver#com.vinsasoft.security.WifiSecurity.LocationAccess
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:346:9-355:20
 	android:enabled
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:348:13-35
@@ -796,19 +796,19 @@ action#android.location.PROVIDERS_CHANGED
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:353:17-76
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:353:25-74
-receiver#com.saeedsoft.security.WifiSecurity.PermissionChangeReceiver
+receiver#com.vinsasoft.security.WifiSecurity.PermissionChangeReceiver
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:357:9-359:37
 	android:enabled
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:359:13-35
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:358:13-88
-receiver#com.saeedsoft.security.WifiSecurity.WakelockHandler
+receiver#com.vinsasoft.security.WifiSecurity.WakelockHandler
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:361:9-363:37
 	android:enabled
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:363:13-35
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:362:13-79
-activity#com.saeedsoft.security.WifiSecurity.AskPermissionActivity
+activity#com.vinsasoft.security.WifiSecurity.AskPermissionActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:365:9-372:20
 	android:parentActivityName
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:368:13-97
@@ -816,7 +816,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:367:13-46
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:366:13-85
-activity#com.saeedsoft.security.applocker.EnterActivity
+activity#com.vinsasoft.security.applocker.EnterActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:375:9-380:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:377:13-46
@@ -824,7 +824,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:378:13-56
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:376:13-74
-activity#com.saeedsoft.security.applocker.UnlockActivity
+activity#com.vinsasoft.security.applocker.UnlockActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:381:9-388:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:383:13-46
@@ -834,7 +834,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:382:13-75
 intent-filter#category:name:android.intent.category.DEFAULT
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:385:13-387:29
-activity#com.saeedsoft.security.applocker.MainActivity
+activity#com.vinsasoft.security.applocker.MainActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:389:9-398:20
 	android:screenOrientation
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:393:13-49
@@ -844,7 +844,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:392:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:390:13-73
-activity#com.saeedsoft.security.applocker.Splash
+activity#com.vinsasoft.security.applocker.Splash
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:399:9-406:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:401:13-46
@@ -852,7 +852,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:402:13-56
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:400:13-67
-activity#com.saeedsoft.security.applocker.SetPatternLockActivity
+activity#com.vinsasoft.security.applocker.SetPatternLockActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:407:9-414:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:409:13-46
@@ -860,7 +860,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:410:13-56
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:408:13-83
-activity#com.saeedsoft.security.applocker.SetLockTypeActivity
+activity#com.vinsasoft.security.applocker.SetLockTypeActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:415:9-422:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:417:13-46
@@ -868,7 +868,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:418:13-56
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:416:13-80
-activity#com.saeedsoft.security.applocker.EnterNormalPIN
+activity#com.vinsasoft.security.applocker.EnterNormalPIN
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:423:9-431:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:425:13-46
@@ -878,7 +878,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:427:13-56
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:424:13-75
-activity#com.saeedsoft.security.applocker.SetNormalPIN
+activity#com.vinsasoft.security.applocker.SetNormalPIN
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:432:9-439:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:434:13-46
@@ -886,7 +886,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:435:13-56
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:433:13-73
-activity#com.saeedsoft.security.applocker.EnterPatternLock
+activity#com.vinsasoft.security.applocker.EnterPatternLock
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:440:9-448:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:443:13-46
@@ -896,7 +896,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:444:13-56
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:441:13-77
-activity#com.saeedsoft.security.applocker.EnterFingerprintActivity
+activity#com.vinsasoft.security.applocker.EnterFingerprintActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:449:9-457:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:452:13-46
@@ -906,7 +906,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:453:13-56
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:450:13-85
-activity#com.saeedsoft.security.applocker.SettingsActivity
+activity#com.vinsasoft.security.applocker.SettingsActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:458:9-467:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:460:13-46
@@ -914,7 +914,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:461:13-44
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:459:13-77
-activity#com.saeedsoft.security.applocker.LogsActivity
+activity#com.vinsasoft.security.applocker.LogsActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:468:9-475:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:470:13-46
@@ -922,7 +922,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:471:13-44
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:469:13-73
-activity#com.saeedsoft.security.applocker.RequestPermission
+activity#com.vinsasoft.security.applocker.RequestPermission
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:476:9-483:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:478:13-46
@@ -930,7 +930,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:479:13-45
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:477:13-78
-activity#com.saeedsoft.security.ProActivity
+activity#com.vinsasoft.security.ProActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:485:9-487:59
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:486:13-51
@@ -938,7 +938,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:487:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:485:19-68
-activity#com.saeedsoft.security.ProActivitySuccess
+activity#com.vinsasoft.security.ProActivitySuccess
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:488:9-490:59
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:489:13-51
@@ -946,11 +946,11 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:490:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:488:19-75
-activity#com.saeedsoft.security.NotificationActivity
+activity#com.vinsasoft.security.NotificationActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:492:9-80
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:492:19-77
-activity#com.saeedsoft.security.Battery.BatterySaver
+activity#com.vinsasoft.security.Battery.BatterySaver
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:493:9-496:59
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:495:13-49
@@ -958,7 +958,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:496:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:494:13-71
-activity#com.saeedsoft.security.AntiVirus.VirusFoundActivity
+activity#com.vinsasoft.security.AntiVirus.VirusFoundActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:497:9-499:59
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:498:13-47
@@ -966,7 +966,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:499:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:497:19-85
-activity#com.saeedsoft.security.AntiVirus.VirusFoundActivity2
+activity#com.vinsasoft.security.AntiVirus.VirusFoundActivity2
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:500:9-502:59
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:501:13-47
@@ -974,7 +974,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:502:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:500:19-86
-activity#com.saeedsoft.security.AboutActivity
+activity#com.vinsasoft.security.AboutActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:503:9-505:59
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:504:13-46
@@ -982,7 +982,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:505:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:503:19-70
-activity#com.saeedsoft.security.PrivacyPolicyActivity
+activity#com.vinsasoft.security.PrivacyPolicyActivity
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:506:9-508:59
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:507:13-51
@@ -990,7 +990,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:508:13-57
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:506:19-78
-activity#com.saeedsoft.security.Activity_TOSAccept
+activity#com.vinsasoft.security.Activity_TOSAccept
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:509:9-517:20
 	android:theme
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:511:13-44
@@ -1002,7 +1002,7 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:515:17-77
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:515:27-74
-receiver#com.saeedsoft.security.applocker.ScreenReciever
+receiver#com.vinsasoft.security.applocker.ScreenReciever
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:519:9-524:20
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:519:19-81
@@ -1016,17 +1016,17 @@ action#android.intent.action.SCREEN_ON
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:522:17-73
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:522:25-71
-receiver#com.saeedsoft.security.applocker.BootReciever
+receiver#com.vinsasoft.security.applocker.BootReciever
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:525:9-529:20
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:525:19-79
-service#com.saeedsoft.security.applocker.LockService
+service#com.vinsasoft.security.applocker.LockService
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:531:9-532:37
 	android:enabled
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:532:13-35
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:531:18-77
-receiver#com.saeedsoft.security.receiver.DeviceAdminSampleReceiver
+receiver#com.vinsasoft.security.receiver.DeviceAdminSampleReceiver
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:534:9-546:20
 	android:label
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:537:13-45
@@ -1048,7 +1048,7 @@ action#android.app.action.DEVICE_ADMIN_ENABLED
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:544:17-82
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:544:25-79
-service#com.saeedsoft.security.service.MyFirebaseMessagingService
+service#com.vinsasoft.security.service.MyFirebaseMessagingService
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:547:9-551:19
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:547:18-90
@@ -1058,7 +1058,7 @@ action#com.google.firebase.MESSAGING_EVENT
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:549:17-78
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:549:25-75
-service#com.saeedsoft.security.service.MyFirebaseInstanceIDService
+service#com.vinsasoft.security.service.MyFirebaseInstanceIDService
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:553:9-557:19
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:553:18-91
@@ -1074,7 +1074,7 @@ ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:561:57-91
 	android:name
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:561:20-56
-service#com.saeedsoft.security.MyPushListener
+service#com.vinsasoft.security.MyPushListener
 ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:564:9-570:19
 	android:exported
 		ADDED from C:\Users\saeed\Desktop\Android Project\app\src\main\AndroidManifest.xml:566:13-37

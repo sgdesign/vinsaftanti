@@ -32,7 +32,7 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="46dp"
-            android:text=" آنتی ویروس حرفه ای وینسافت"
+            android:text=" آنتی ویروس حرفه ای vina"
             android:textColor="@color/purple"
             android:textSize="30sp"
             android:textStyle="bold"

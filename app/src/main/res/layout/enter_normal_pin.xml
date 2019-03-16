@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/mainEnd"
     android:orientation="vertical"
-    tools:context="com.saeedsoft.security.applocker.EnterNormalPIN">
+    tools:context="com.vinsasoft.security.applocker.EnterNormalPIN">
 
 
     <Button

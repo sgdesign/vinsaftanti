@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.saeedsoft.security.AntiVirus.VirusScanSpeed"
+    tools:context="com.vinsasoft.security.AntiVirus.VirusScanSpeed"
     android:background="#e2e2e2">
    <!-- <include layout="@layout/titlebar"
         android:visibility="gone" />

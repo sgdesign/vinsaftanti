@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/mainEnd"
     android:orientation="vertical"
-    tools:context="com.saeedsoft.security.AntiVirus.VirusScan">
+    tools:context="com.vinsasoft.security.AntiVirus.VirusScan">
 
     <RelativeLayout
         android:layout_width="match_parent"

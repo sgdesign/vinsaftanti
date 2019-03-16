@@ -220,7 +220,7 @@
     <item name="gray" type="color">#323a45</item>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
-    <color name="ic_launcher_background">#FFF4F6</color>
+    <color name="ic_launcher_background">#F8FFFD</color>
     <color name="info_icon_bottom_text">#726D6C</color>
     <color name="info_icon_top_text">#D3D2D1</color>
     <color name="mainEnd">#E91E63</color>
@@ -628,13 +628,13 @@
     <string name="ads_message">Displays ads while in use, including banners, pop-ups, and other graphics. The ads are common in free apps.</string>
     <string name="all_apps_locked">All apps locked</string>
     <string name="all_apps_unlocked">All apps unlocked</string>
-    <string name="all_rights_reserved">تمامی حقوق برای آنتی ویروس هوشمند وینسافت محفوظ می باشد.</string>
+    <string name="all_rights_reserved">تمامی حقوق برای آنتی ویروس هوشمند vina محفوظ می باشد.</string>
     <string name="anti_desc">Protect your phone from being lost</string>
     <string name="app_about">درباره ما</string>
     <string name="app_author">Pharid</string>
     <string name="app_facebook">facebook.com/pharidofficial</string>
     <string name="app_information">Abc Mobile Security</string>
-    <string name="app_name">آنتی ویروس پیشرفته وینسافت</string>
+    <string name="app_name">آنتی ویروس پیشرفته vina</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="application_desc">Scan the installed application.</string>
     <string name="application_scan">Application Scan</string>

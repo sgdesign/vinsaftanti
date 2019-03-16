@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.saeedsoft.security"
+    package="com.vinsasoft.security"
     android:targetSandboxVersion="2"
     android:versionCode="1"
     android:versionName="2.6" >
@@ -50,7 +50,7 @@
     <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
 
     <application
-        android:name="com.saeedsoft.security.stuff.AppContext"
+        android:name="com.vinsasoft.security.stuff.AppContext"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -66,18 +66,18 @@
             android:exported="false"
             android:theme="@android:style/Theme.Translucent" />
         <activity
-            android:name="com.saeedsoft.security.MainActivity"
+            android:name="com.vinsasoft.security.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="com.saeedsoft.security.SplishActivity"
+            android:name="com.vinsasoft.security.SplishActivity"
             android:theme="@style/AppTheme" >
         </activity>
-        <activity android:name="com.saeedsoft.security.PermissionActivity" >
+        <activity android:name="com.vinsasoft.security.PermissionActivity" >
         </activity>
         <activity
-            android:name="com.saeedsoft.security.AntiVirus.EulaActivity"
+            android:name="com.vinsasoft.security.AntiVirus.EulaActivity"
             android:configChanges="orientation"
             android:label=""
             android:screenOrientation="portrait" >
@@ -86,7 +86,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.AntiVirus.FullscanActivity"
+            android:name="com.vinsasoft.security.AntiVirus.FullscanActivity"
             android:configChanges="orientation"
             android:label="@string/virus_scan"
             android:screenOrientation="portrait"
@@ -98,7 +98,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.AntiVirus.SdcardScanActivity"
+            android:name="com.vinsasoft.security.AntiVirus.SdcardScanActivity"
             android:configChanges="orientation"
             android:label="@string/virus_scan"
             android:screenOrientation="portrait"
@@ -110,14 +110,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.SettingsActivity"
+            android:name="com.vinsasoft.security.SettingsActivity"
             android:configChanges="orientation"
             android:label="@string/title_settings"
             android:screenOrientation="portrait"
             android:theme="@style/MyTranslucentAppTheme" >
         </activity>
         <activity
-            android:name="com.saeedsoft.security.AntiVirus.AntivirusActivity"
+            android:name="com.vinsasoft.security.AntiVirus.AntivirusActivity"
             android:configChanges="orientation"
             android:label="@string/virus_scan"
             android:screenOrientation="portrait"
@@ -127,17 +127,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.AntiVirus.VirusScan"
+            android:name="com.vinsasoft.security.AntiVirus.VirusScan"
             android:label="@string/virus_scan"
             android:screenOrientation="portrait"
             android:theme="@style/MyTranslucentAppTheme" />
         <activity
-            android:name="com.saeedsoft.security.AntiVirus.VirusScanSpeed"
+            android:name="com.vinsasoft.security.AntiVirus.VirusScanSpeed"
             android:label="@string/virus_scan"
             android:screenOrientation="portrait"
             android:theme="@style/MyTranslucentAppTheme" />
         <activity
-            android:name="com.saeedsoft.security.AntiVirus.ScanCompleted"
+            android:name="com.vinsasoft.security.AntiVirus.ScanCompleted"
             android:label="@string/virus_scan"
             android:theme="@style/MyTranslucentAppTheme" >
             <intent-filter>
@@ -147,7 +147,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.AntiVirus.DetailUpdateReport"
+            android:name="com.vinsasoft.security.AntiVirus.DetailUpdateReport"
             android:label="@string/virus_scan"
             android:theme="@style/MyTranslucentAppTheme" >
             <intent-filter>
@@ -157,7 +157,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.AntiVirus.DetailScanReport"
+            android:name="com.vinsasoft.security.AntiVirus.DetailScanReport"
             android:label="@string/virus_scan"
             android:theme="@style/MyTranslucentAppTheme" >
             <intent-filter>
@@ -167,7 +167,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.AntiVirus.ReportActivity"
+            android:name="com.vinsasoft.security.AntiVirus.ReportActivity"
             android:label="@string/virus_scan"
             android:theme="@style/MyTranslucentAppTheme" >
             <intent-filter>
@@ -177,44 +177,44 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.PhoneSafeActivity"
+            android:name="com.vinsasoft.security.PhoneSafeActivity"
             android:label="@string/Anti_theft"
             android:launchMode="singleTask"
             android:theme="@style/MyTranslucentAppTheme" />
         <activity
-            android:name="com.saeedsoft.security.PhoneSafeSetting1Activity"
+            android:name="com.vinsasoft.security.PhoneSafeSetting1Activity"
             android:label="@string/Anti_theft"
             android:launchMode="singleTask" >
             <intent-filter>
-                <action android:name="com.saeedsoft.security.PhoneSafeSetting1Activity" />
+                <action android:name="com.vinsasoft.security.PhoneSafeSetting1Activity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.ContactsActivity"
+            android:name="com.vinsasoft.security.ContactsActivity"
             android:label="" >
         </activity>
         <activity
-            android:name="com.saeedsoft.security.AntiTheft.SetUp1"
+            android:name="com.vinsasoft.security.AntiTheft.SetUp1"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.saeedsoft.security.AntiTheft.SetUp2"
+            android:name="com.vinsasoft.security.AntiTheft.SetUp2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.saeedsoft.security.AntiTheft.SetUp4"
+            android:name="com.vinsasoft.security.AntiTheft.SetUp4"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.saeedsoft.security.AntiTheft.LostFind"
+            android:name="com.vinsasoft.security.AntiTheft.LostFind"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <service
-            android:name="com.saeedsoft.security.service.PhoneSafeService"
+            android:name="com.vinsasoft.security.service.PhoneSafeService"
             android:enabled="true"
             android:exported="true" />
 
         <receiver
-            android:name="com.saeedsoft.security.receiver.SimChangeReceiver"
+            android:name="com.vinsasoft.security.receiver.SimChangeReceiver"
             android:enabled="true"
             android:exported="true" >
             <intent-filter>
@@ -223,12 +223,12 @@
         </receiver>
 
         <service
-            android:name="com.saeedsoft.security.service.GpsTraceService"
+            android:name="com.vinsasoft.security.service.GpsTraceService"
             android:enabled="true"
             android:exported="true" />
         <!-- Declaring broadcast receiver for BOOT_COMPLETED event. -->
         <receiver
-            android:name="com.saeedsoft.security.AntiVirus.BootCompletedReceiver"
+            android:name="com.vinsasoft.security.AntiVirus.BootCompletedReceiver"
             android:enabled="true"
             android:exported="false" >
             <intent-filter>
@@ -237,60 +237,60 @@
         </receiver>
 
         <service
-            android:name="com.saeedsoft.security.AntiVirus.MonitorShieldService"
+            android:name="com.vinsasoft.security.AntiVirus.MonitorShieldService"
             android:enabled="true" />
         <service
-            android:name="com.saeedsoft.security.service.CallBlockingService"
+            android:name="com.vinsasoft.security.service.CallBlockingService"
             android:description="@string/blocking_service_description"
             android:exported="false" >
         </service>
 
-        <receiver android:name="com.saeedsoft.security.broadcasts.WakeUpReceiver" >
+        <receiver android:name="com.vinsasoft.security.broadcasts.WakeUpReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.saeedsoft.security.broadcasts.CallReceiver" >
+        <receiver android:name="com.vinsasoft.security.broadcasts.CallReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.PHONE_STATE" />
             </intent-filter>
         </receiver>
 
         <provider
-            android:name="com.saeedsoft.security.db.BlackListProvider"
-            android:authorities="com.saeedsoft.security.blackList"
+            android:name="com.vinsasoft.security.db.BlackListProvider"
+            android:authorities="com.vinsasoft.security.blackList"
             android:exported="false" />
         <provider
-            android:name="com.saeedsoft.security.db.LogProvider"
-            android:authorities="com.saeedsoft.security.log"
+            android:name="com.vinsasoft.security.db.LogProvider"
+            android:authorities="com.vinsasoft.security.log"
             android:exported="false" />
         <provider
-            android:name="com.saeedsoft.security.db.QuickBlackListProvider"
-            android:authorities="com.saeedsoft.security.quickBlackList"
+            android:name="com.vinsasoft.security.db.QuickBlackListProvider"
+            android:authorities="com.vinsasoft.security.quickBlackList"
             android:exported="false" />
 
         <activity
-            android:name="com.saeedsoft.security.CallBlocker.MainActivity"
+            android:name="com.vinsasoft.security.CallBlocker.MainActivity"
             android:label="@string/callb_Home"
             android:theme="@style/MyTranslucentAppTheme" >
         </activity>
         <activity
-            android:name="com.saeedsoft.security.CallBlocker.AddActivity"
+            android:name="com.vinsasoft.security.CallBlocker.AddActivity"
             android:exported="false"
             android:label="@string/callb_Home"
             android:theme="@style/MyTranslucentAppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.saeedsoft.security.CallBlocker.MainActivity" />
+                android:value="com.vinsasoft.security.CallBlocker.MainActivity" />
         </activity>
         <activity
-            android:name="com.saeedsoft.security.CallBlocker.AllSettingsActivity"
+            android:name="com.vinsasoft.security.CallBlocker.AllSettingsActivity"
             android:exported="false"
             android:label="@string/callb_Home"
             android:theme="@style/MyTranslucentAppTheme" >
         </activity>
         <activity
-            android:name="com.saeedsoft.security.CallBlocker.BlockingSettingsActivity"
+            android:name="com.vinsasoft.security.CallBlocker.BlockingSettingsActivity"
             android:exported="false"
             android:label="@string/callb_Home"
             android:theme="@style/MyTranslucentAppTheme" >
@@ -307,35 +307,35 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.CallBlocker.InitialPermissionsActivity"
+            android:name="com.vinsasoft.security.CallBlocker.InitialPermissionsActivity"
             android:exported="false"
             android:label="@string/callb_Home"
             android:theme="@style/MyTranslucentAppTheme" >
         </activity>
         <activity
-            android:name="com.saeedsoft.security.WifiSecurity.PreferencesActivity"
+            android:name="com.vinsasoft.security.WifiSecurity.PreferencesActivity"
             android:label="@string/wifisec_Home"
             android:theme="@style/MyTranslucentAppTheme" >
         </activity>
         <activity
-            android:name="com.saeedsoft.security.WifiSecurity.SSIDManagerActivity"
+            android:name="com.vinsasoft.security.WifiSecurity.SSIDManagerActivity"
             android:label="@string/wifisec_Home"
             android:theme="@style/MyTranslucentAppTheme" >
         </activity>
         <activity
-            android:name="com.saeedsoft.security.WifiSecurity.MACManagerActivity"
+            android:name="com.vinsasoft.security.WifiSecurity.MACManagerActivity"
             android:label="@string/wifisec_Home"
             android:theme="@style/MyTranslucentAppTheme" >
         </activity>
         <activity
-            android:name="com.saeedsoft.security.WifiSecurity.LocationNoticeActivity"
+            android:name="com.vinsasoft.security.WifiSecurity.LocationNoticeActivity"
             android:label="@string/wifisec_Home"
             android:theme="@style/MyTranslucentAppTheme" >
         </activity>
         <!-- Receive all scan results in ScanResultsChecker class -->
 
         <receiver
-            android:name="com.saeedsoft.security.WifiSecurity.ScanResultsChecker"
+            android:name="com.vinsasoft.security.WifiSecurity.ScanResultsChecker"
             android:enabled="true"
             android:exported="false" >
             <intent-filter>
@@ -344,7 +344,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name="com.saeedsoft.security.WifiSecurity.LocationAccess"
+            android:name="com.vinsasoft.security.WifiSecurity.LocationAccess"
             android:enabled="true"
             android:exported="false" >
             <intent-filter>
@@ -353,27 +353,27 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name="com.saeedsoft.security.WifiSecurity.PermissionChangeReceiver"
+            android:name="com.vinsasoft.security.WifiSecurity.PermissionChangeReceiver"
             android:enabled="true" />
         <receiver
-            android:name="com.saeedsoft.security.WifiSecurity.WakelockHandler"
+            android:name="com.vinsasoft.security.WifiSecurity.WakelockHandler"
             android:enabled="true" />
 
         <activity
-            android:name="com.saeedsoft.security.WifiSecurity.AskPermissionActivity"
+            android:name="com.vinsasoft.security.WifiSecurity.AskPermissionActivity"
             android:excludeFromRecents="true"
-            android:parentActivityName="com.saeedsoft.security.WifiSecurity.PreferencesActivity" >
+            android:parentActivityName="com.vinsasoft.security.WifiSecurity.PreferencesActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.saeedsoft.security.WifiSecurity.PreferencesActivity" />
+                android:value="com.vinsasoft.security.WifiSecurity.PreferencesActivity" />
         </activity>
         <activity
-            android:name="com.saeedsoft.security.applocker.EnterActivity"
+            android:name="com.vinsasoft.security.applocker.EnterActivity"
             android:label="@string/apps_lock"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="com.saeedsoft.security.applocker.UnlockActivity"
+            android:name="com.vinsasoft.security.applocker.UnlockActivity"
             android:label="@string/apps_lock"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
@@ -381,7 +381,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.applocker.MainActivity"
+            android:name="com.vinsasoft.security.applocker.MainActivity"
             android:label="@string/apps_lock"
             android:screenOrientation="portrait"
             android:theme="@style/MyTranslucentAppTheme" >
@@ -390,7 +390,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.applocker.Splash"
+            android:name="com.vinsasoft.security.applocker.Splash"
             android:label="@string/apps_lock"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
@@ -398,7 +398,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.applocker.SetPatternLockActivity"
+            android:name="com.vinsasoft.security.applocker.SetPatternLockActivity"
             android:label="@string/apps_lock"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
@@ -406,7 +406,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.applocker.SetLockTypeActivity"
+            android:name="com.vinsasoft.security.applocker.SetLockTypeActivity"
             android:label="@string/apps_lock"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
@@ -414,7 +414,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.applocker.EnterNormalPIN"
+            android:name="com.vinsasoft.security.applocker.EnterNormalPIN"
             android:excludeFromRecents="true"
             android:label="@string/apps_lock"
             android:theme="@style/AppTheme.NoActionBar" >
@@ -423,7 +423,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.applocker.SetNormalPIN"
+            android:name="com.vinsasoft.security.applocker.SetNormalPIN"
             android:label="@string/apps_lock"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
@@ -431,7 +431,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.applocker.EnterPatternLock"
+            android:name="com.vinsasoft.security.applocker.EnterPatternLock"
             android:excludeFromRecents="true"
             android:label="@string/apps_lock"
             android:theme="@style/AppTheme.NoActionBar" >
@@ -440,7 +440,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.applocker.EnterFingerprintActivity"
+            android:name="com.vinsasoft.security.applocker.EnterFingerprintActivity"
             android:excludeFromRecents="true"
             android:label="@string/apps_lock"
             android:theme="@style/AppTheme.NoActionBar" >
@@ -449,7 +449,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.applocker.SettingsActivity"
+            android:name="com.vinsasoft.security.applocker.SettingsActivity"
             android:label="@string/apps_lock"
             android:theme="@style/AppTheme" >
             <intent-filter>
@@ -457,7 +457,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.applocker.LogsActivity"
+            android:name="com.vinsasoft.security.applocker.LogsActivity"
             android:label="@string/apps_lock"
             android:theme="@style/AppTheme" >
             <intent-filter>
@@ -465,7 +465,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.applocker.RequestPermission"
+            android:name="com.vinsasoft.security.applocker.RequestPermission"
             android:label="@string/apps_lock"
             android:theme="@style/AppTheme2" >
             <intent-filter>
@@ -473,36 +473,36 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saeedsoft.security.ProActivity"
+            android:name="com.vinsasoft.security.ProActivity"
             android:label="@string/upgrade_button"
             android:theme="@style/MyTranslucentAppTheme" />
         <activity
-            android:name="com.saeedsoft.security.ProActivitySuccess"
+            android:name="com.vinsasoft.security.ProActivitySuccess"
             android:label="@string/upgrade_button"
             android:theme="@style/MyTranslucentAppTheme" />
-        <activity android:name="com.saeedsoft.security.NotificationActivity" />
+        <activity android:name="com.vinsasoft.security.NotificationActivity" />
         <activity
-            android:name="com.saeedsoft.security.Battery.BatterySaver"
+            android:name="com.vinsasoft.security.Battery.BatterySaver"
             android:label="@string/batterysaver"
             android:theme="@style/MyTranslucentAppTheme" />
         <activity
-            android:name="com.saeedsoft.security.AntiVirus.VirusFoundActivity"
+            android:name="com.vinsasoft.security.AntiVirus.VirusFoundActivity"
             android:label="@string/virus_scan"
             android:theme="@style/MyTranslucentAppTheme" />
         <activity
-            android:name="com.saeedsoft.security.AntiVirus.VirusFoundActivity2"
+            android:name="com.vinsasoft.security.AntiVirus.VirusFoundActivity2"
             android:label="@string/virus_scan"
             android:theme="@style/MyTranslucentAppTheme" />
         <activity
-            android:name="com.saeedsoft.security.AboutActivity"
+            android:name="com.vinsasoft.security.AboutActivity"
             android:label="@string/app_about"
             android:theme="@style/MyTranslucentAppTheme" />
         <activity
-            android:name="com.saeedsoft.security.PrivacyPolicyActivity"
+            android:name="com.vinsasoft.security.PrivacyPolicyActivity"
             android:label="@string/privacy_policy"
             android:theme="@style/MyTranslucentAppTheme" />
         <activity
-            android:name="com.saeedsoft.security.Activity_TOSAccept"
+            android:name="com.vinsasoft.security.Activity_TOSAccept"
             android:theme="@style/AppTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -511,24 +511,24 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="com.saeedsoft.security.applocker.ScreenReciever" >
+        <receiver android:name="com.vinsasoft.security.applocker.ScreenReciever" >
             <intent-filter>
                 <action android:name="android.intent.action.SCREEN_OFF" />
                 <action android:name="android.intent.action.SCREEN_ON" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.saeedsoft.security.applocker.BootReciever" >
+        <receiver android:name="com.vinsasoft.security.applocker.BootReciever" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
 
         <service
-            android:name="com.saeedsoft.security.applocker.LockService"
+            android:name="com.vinsasoft.security.applocker.LockService"
             android:enabled="true" />
 
         <receiver
-            android:name="com.saeedsoft.security.receiver.DeviceAdminSampleReceiver"
+            android:name="com.vinsasoft.security.receiver.DeviceAdminSampleReceiver"
             android:description="@string/sample_device_admin_description"
             android:label="@string/app_name"
             android:permission="android.permission.BIND_DEVICE_ADMIN" >
@@ -541,12 +541,12 @@
             </intent-filter>
         </receiver>
 
-        <service android:name="com.saeedsoft.security.service.MyFirebaseMessagingService" >
+        <service android:name="com.vinsasoft.security.service.MyFirebaseMessagingService" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <service android:name="com.saeedsoft.security.service.MyFirebaseInstanceIDService" >
+        <service android:name="com.vinsasoft.security.service.MyFirebaseInstanceIDService" >
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
@@ -557,7 +557,7 @@
             android:value="PUSHE_437867742670" />
 
         <service
-            android:name="com.saeedsoft.security.MyPushListener"
+            android:name="com.vinsasoft.security.MyPushListener"
             android:exported="false" >
             <intent-filter>
                 <action android:name="co.ronash.pushe.RECEIVE" />
@@ -663,7 +663,7 @@
         <!-- android:permission="android.permission.BIND_JOB_SERVICE"/> -->
         <provider
             android:name="co.ronash.pushe.provider.PusheProvider"
-            android:authorities="com.saeedsoft.security.co.ronash.pushe.pusheprovider"
+            android:authorities="com.vinsasoft.security.co.ronash.pushe.pusheprovider"
             android:enabled="true"
             android:exported="false"
             android:grantUriPermissions="true" >

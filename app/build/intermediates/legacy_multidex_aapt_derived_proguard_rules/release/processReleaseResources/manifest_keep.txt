@@ -1,2 +1,2 @@
 # Referenced at C:\Users\saeed\Desktop\Android Project\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:51
--keep class com.saeedsoft.security.stuff.AppContext { <init>(); }
+-keep class com.vinsasoft.security.stuff.AppContext { <init>(); }
